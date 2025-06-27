@@ -16,8 +16,7 @@ import seaborn as sns
 st.set_page_config(page_title="Optimasi Gudang", layout="wide")
 
 st.title("📦 Optimasi Layout Gudang dan Alur Picking")
-st.markdown("Unggah file layout gudang (CSV/XLSX) yang berisi kolom: `slot_id`, `item_type`, `x`, `y`. 
-📎 File simulasi dapat diunduh di sini: http://bit.ly/44EXerm")
+st.markdown("Unggah file layout gudang (CSV/XLSX) yang berisi kolom: `slot_id`, `item_type`, `x`, `y`.\n📎 File simulasi dapat diunduh di sini: http://bit.ly/44EXerm")
 
 uploaded_file = st.file_uploader("📁 Upload File Layout Gudang", type=["csv", "xlsx"])
 
